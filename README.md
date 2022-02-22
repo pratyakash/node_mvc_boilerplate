@@ -1,1 +1,1 @@
-# giveaway_manager_be
+# node_mvc_boilerplate
