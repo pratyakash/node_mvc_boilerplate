@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # Dotenv
-.env
+config.env
