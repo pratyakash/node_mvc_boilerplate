@@ -1,4 +1,5 @@
 const util = require("../util");
+const { codes } = require("./codes");
 
 const jsonFormat = {
 	code: -1,
@@ -32,7 +33,7 @@ const invalidToken = res => {
 
 const success = (res, code, data, message, baseId, recordsCount) => {
 	const json = JSON.parse(JSON.stringify(jsonFormat));
-	json.code = code;
+	json.code = code || codes.SUCCESS;
 	json.success = true;
 	json.data = data;
 	json.message = message;

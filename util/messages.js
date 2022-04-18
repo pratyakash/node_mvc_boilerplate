@@ -1,4 +1,6 @@
 const messages = {
+	SUCCESS: "Operation is successful",
+
 	EMAIL_REGISTERED_SOCIAL:
 		"This email is already registered through social auth. Please use login from google/facebook and then try to update your profile",
 	EMAIL_ALREADY_EXISTS:
